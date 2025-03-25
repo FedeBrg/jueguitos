@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jueguitos/static/css/main.1ef2e904.css",
-    "main.js": "/jueguitos/static/js/main.f2f440be.js",
+    "main.css": "/jueguitos/static/css/main.ff00c622.css",
+    "main.js": "/jueguitos/static/js/main.ffe77165.js",
     "static/js/453.65a2ebd8.chunk.js": "/jueguitos/static/js/453.65a2ebd8.chunk.js",
     "static/media/logo.svg": "/jueguitos/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/jueguitos/index.html",
-    "main.1ef2e904.css.map": "/jueguitos/static/css/main.1ef2e904.css.map",
-    "main.f2f440be.js.map": "/jueguitos/static/js/main.f2f440be.js.map",
+    "main.ff00c622.css.map": "/jueguitos/static/css/main.ff00c622.css.map",
+    "main.ffe77165.js.map": "/jueguitos/static/js/main.ffe77165.js.map",
     "453.65a2ebd8.chunk.js.map": "/jueguitos/static/js/453.65a2ebd8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ef2e904.css",
-    "static/js/main.f2f440be.js"
+    "static/css/main.ff00c622.css",
+    "static/js/main.ffe77165.js"
   ]
 }
