@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const leaderboardData = [
-  { name: "Iaratak", score: 0, image: "https://i.pinimg.com/1200x/f6/25/96/f62596a7671ed03aa31f77f02423a5a8.jpg" },
+  { name: "Iaratak", score: 0, image: "https://i.ibb.co/kVXD53gF/Whats-App-Image-2025-03-23-at-21-39-03.png" },
   { name: "Federex", score: 0, image: "https://i.ibb.co/m5L74B9G/Whats-App-Image-2025-03-23-at-20-02-49.jpg" },
 ];
 
@@ -195,7 +195,7 @@ export default function GameNightTracker() {
                 <tr key={player.name} className="border">
                   <td className="border p-2">{index + 1}</td>
                   <td className="border p-2 flex items-center">
-                    <img src={player.image} alt={player.name} className="w-8 h-8 rounded-full mr-2 object-cover" />
+                    <img src={player.image} alt={player.name} className="w-10 h-10 rounded-full mr-2 object-cover" />
                     {player.name}
                   </td>
                   <td className="border p-2">{player.score}</td>
