@@ -3,6 +3,13 @@ import { useState } from "react";
 const leaderboardData = [
   { name: "Iaratak", score: 0, image: "https://i.ibb.co/kVXD53gF/Whats-App-Image-2025-03-23-at-21-39-03.png" },
   { name: "Federex", score: 0, image: "https://i.ibb.co/m5L74B9G/Whats-App-Image-2025-03-23-at-20-02-49.jpg" },
+  { name: "Muffi Mafia", score: 0, image: "https://t3.ftcdn.net/jpg/09/64/89/20/360_F_964892089_vioRltmAxaoQEBLtYtChVBxIzDWwhA3T.jpg" },
+  { name: "vickiroosa", score: 0, image: "https://t3.ftcdn.net/jpg/09/64/89/20/360_F_964892089_vioRltmAxaoQEBLtYtChVBxIzDWwhA3T.jpg" },
+  { name: "vickihernando", score: 0, image: "https://t3.ftcdn.net/jpg/09/64/89/20/360_F_964892089_vioRltmAxaoQEBLtYtChVBxIzDWwhA3T.jpg" },
+  { name: "Ponsha", score: 0, image: "https://t3.ftcdn.net/jpg/09/64/89/20/360_F_964892089_vioRltmAxaoQEBLtYtChVBxIzDWwhA3T.jpg" },
+  { name: "Gatinho", score: 0, image: "https://i.ibb.co/HLrhFKxP/Whats-App-Image-2025-03-26-at-23-38-49.png" },
+  { name: "DonGonzon", score: 0, image: "https://t3.ftcdn.net/jpg/09/64/89/20/360_F_964892089_vioRltmAxaoQEBLtYtChVBxIzDWwhA3T.jpg" },
+  { name: "Nautatius", score: 0, image: "https://t3.ftcdn.net/jpg/09/64/89/20/360_F_964892089_vioRltmAxaoQEBLtYtChVBxIzDWwhA3T.jpg" },
 ];
 
 const gameListData = [
@@ -20,7 +27,7 @@ const gameListData = [
       image: "https://cf.geekdo-images.com/fQe85tsBZoH6ibPnm1k1UA__itemrep/img/SdQ5at_SaQCPbs1QES2KfeUKqaQ=/fit-in/246x300/filters:strip_icc()/pic791151.jpg",
       players: "2",
       time: "20 min",
-      category: "Estrategia, Ajedrex",
+      category: "Estrategia, Ajedrez",
       complexity: "Media",
       link: "https://www.youtube.com/watch?v=K9PQlqPdGRw"
     },
@@ -146,7 +153,7 @@ const gameListData = [
         image: "https://www.ludokubo.com/wp-content/uploads/2020/09/El-Mortal-juego.jpg",
         players: "2-4",
         time: "20-30 min",
-        category: "Party, Cartas, Humor (Similar a Exploding Kittens)",
+        category: "Party, Cartas, Humor, (Similar a Exploding Kittens)",
         complexity: "Facil",
         link: "https://www.youtube.com/watch?v=q9LXlhhxn7E"
       },
@@ -158,8 +165,52 @@ const gameListData = [
         category: "Party, Humor",
         complexity: "Facil",
         link: "https://www.youtube.com/watch?v=DWZ11vXmbDo"
+      },
+      {
+        name: "Trio",
+        image: "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/8436607944423-1200-face3d-copy.jpg",
+        players: "3-6",
+        time: "20 min",
+        category: "Memoria, Deduccion",
+        complexity: "Facil",
+        link: "https://www.youtube.com/watch?v=PtWaNlg2j9Q"
+      },
+      {
+        name: "Cryptid (Próximamente)",
+        image: "https://cf.geekdo-images.com/qrPLpAnhFgc470ZRuXlvbg__imagepage/img/5NPoTdJE4JVMz6S4zAL1xFD4k8U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4037705.jpg",
+        players: "3-5",
+        time: "30-50 min",
+        category: "Deduccion, Investigacion, Pistas",
+        complexity: "Media+",
+        link: "https://www.youtube.com/watch?v=ehrU9HesAg0"
+      },
+      {
+        name: "Taco, Gato, Cabra, Queso, Pizza (Próximamente)",
+        image: "https://cf.geekdo-images.com/qrPLpAnhFgc470ZRuXlvbg__imagepage/img/5NPoTdJE4JVMz6S4zAL1xFD4k8U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4037705.jpg",
+        players: "3-5",
+        time: "30-50 min",
+        category: "Deduccion, Investigacion, Pistas",
+        complexity: "Media+",
+        link: "https://www.youtube.com/watch?v=ehrU9HesAg0"
+      },
+      {
+        name: "Cartographers Heroes (Próximamente)",
+        image: "https://cf.geekdo-images.com/HIFpoE6wwuriOREJmqizPw__itemrep/img/r1I6NYxeb0n-O6fIKHSNfOmKOro=/fit-in/246x300/filters:strip_icc()/pic5567490.png",
+        players: "2+",
+        time: "30-45 min",
+        category: "Flip & Write",
+        complexity: "Media",
+        link: "https://www.youtube.com/watch?v=aVDlVoUDFhw"
+      },
+      {
+        name: "Draftosaurus (Próximamente)",
+        image: "https://cf.geekdo-images.com/JahbLRZ_jEe8P8gisXUtJw__itemrep/img/3HPC1vPT_u5pUPBP-gwl24X4YBw=/fit-in/246x300/filters:strip_icc()/pic4447676.jpg",
+        players: "2-5",
+        time: "20 min",
+        category: "Drafteo",
+        complexity: "Facil",
+        link: "https://www.youtube.com/watch?v=a5pegumye6E"
       }
-
 
   ];
   
@@ -172,33 +223,33 @@ export default function GameNightTracker() {
   );
 
   return (
-    <div className={`p-4 max-w-3xl mx-auto ${tab === 'truco' ? 'bg-[#298458]' : ''}`}>
+    <div className={`text-[#ff5426] w-full flex flex-col h-full p-4 max-w-3xl mx-auto ${tab === 'truco' ? 'bg-[#298458]' : ''}`}>
       <div className="flex space-x-4 mb-4">
-        <button onClick={() => setTab("leaderboard")} className={`px-4 py-2 rounded ${tab === "leaderboard" ? "bg-blue-500 text-white" : "bg-gray-300"}`}>Tabla de posiciones</button>
-        <button onClick={() => setTab("games")} className={`px-4 py-2 rounded ${tab === "games" ? "bg-blue-500 text-white" : "bg-gray-300"}`}>Jueguitos</button>
-        <button onClick={() => setTab("truco")} className={`px-4 py-2 rounded ${tab === "truco" ? "bg-blue-500 text-white" : "bg-gray-300"}`}>Torneo de truco</button>
+        <button onClick={() => setTab("leaderboard")} className={`px-4 py-2 rounded ${tab === "leaderboard" ? "bg-[#ff5426] text-[#fff1e7]" : tab ==='truco' ? 'border border-[#145A38] text-[#fff1e7]': "bg-[#fff1e7] border border-[#ff5426]"}`}>Tabla de posiciones</button>
+        <button onClick={() => setTab("games")} className={`px-4 py-2 rounded ${tab === "games" ? "bg-[#ff5426] text-[#fff1e7]" :tab ==='truco' ? 'border border-[#145A38] text-[#fff1e7]': "bg-[#fff1e7] border border-[#ff5426]"}`}>Jueguitos</button>
+        <button onClick={() => setTab("truco")} className={`px-4 py-2 rounded ${tab === "truco" ? "bg-[#145A38] text-[#fff1e7]" : "bg-[#fff1e7] border border-[#ff5426]"}`}>Torneo de truco</button>
       </div>
       
       {tab === "leaderboard" && (
         <div>
-          <h2 className="text-xl font-bold mb-4">Tabla de posiciones</h2>
-          <table className="w-full border-collapse border border-gray-300">
+          <h2 className="text-4xl mb-4 mt-4">TABLA DE POSICIONES</h2>
+          <table className="w-full border-collapse  border border-[#ff5426]">
             <thead>
-              <tr className="bg-gray-200">
-                <th className="border p-2">Puesto</th>
-                <th className="border p-2">Jugador</th>
-                <th className="border p-2">Puntos</th>
+              <tr className=" border border-[#ff5426] bg-[#fff1e7] bg-opacity-50">
+                <th className=" border border-[#ff5426] p-2">Puesto</th>
+                <th className="border border-[#ff5426] p-2">Jugador</th>
+                <th className=" border border-[#ff5426] p-2">Puntos</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className=" border border-[#ff5426]">
               {leaderboardData.sort((a, b) => b.score - a.score).map((player, index) => (
-                <tr key={player.name} className="border">
-                  <td className="border p-2">{index + 1}</td>
-                  <td className="border p-2 flex items-center">
+                <tr key={player.name} className="bg-[#fff1e7] bg-opacity-50 border border-[#ff5426]">
+                  <td className=" border border-[#ff5426] p-2">{index + 1}</td>
+                  <td className=" p-2 flex items-center">
                     <img src={player.image} alt={player.name} className="w-10 h-10 rounded-full mr-2 object-cover" />
                     {player.name}
                   </td>
-                  <td className="border p-2">{player.score}</td>
+                  <td className=" border border-[#ff5426] p-2">{player.score}</td>
                 </tr>
               ))}
             </tbody>
@@ -208,25 +259,25 @@ export default function GameNightTracker() {
       
       {tab === "games" && (
         <div>
-          <h2 className="text-xl font-bold mb-4">Jueguitos</h2>
+          <h2 className="text-4xl font-bold mb-4 mt-4">JUEGUITOS</h2>
           <input 
             type="text" 
-            placeholder="Search games..." 
-            className="border p-2 w-full mb-4" 
+            placeholder="Buscar..." 
+            className="border border-[#fdbfd5] rounded-xl p-2 w-full mb-4 text-[#ff5426] focus:outline-[#ff5426] placeholder:text-[#fdbfd5]" 
             value={search} 
             onChange={(e) => setSearch(e.target.value)} 
           />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {filteredGames.map((game) => (
-              <div key={game.name} className="border p-4 rounded-lg shadow">
+            {filteredGames.sort(() => Math.random() - 0.5).map((game) => (
+              <div key={game.name} className="bg-[#fff1e7] border border-[#ff5426] p-4 rounded-lg shadow">
                 <img src={game.image} alt={game.name} className="w-full h-64 object-contain mb-2" />
-                <h3 className="text-lg font-bold">{game.name}</h3>
-                <p className="text-sm">{game.description}</p>
+                <h3 className="text-xl font-bold">{game.name}</h3>
+                <p className="text-base">{game.description}</p>
                 <p className="text-sm mt-2">Jugadores: {game.players}</p>
-                <p className="text-sm">Tiempo estimado: {game.time}</p>
-                <p className="text-sm">Categoria: {game.category}</p>
-                <p className="text-sm">Dificultad: {game.complexity}</p>
-                <a href={game.link} target="_blank" className="text-blue-500 underline block mt-2" rel="noreferrer">Videito reglas</a>
+                <p className="text-sm mt-1">Tiempo estimado: {game.time}</p>
+                <p className="text-sm mt-1">Categoria: {game.category}</p>
+                <p className="text-sm mt-1">Dificultad: {game.complexity}</p>
+                <a href={game.link} target="_blank" className="text-[#ff5426] underline block mt-2 text-xs" rel="noreferrer">Videito reglas</a>
               </div>
             ))}
           </div>

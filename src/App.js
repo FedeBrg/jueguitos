@@ -4,7 +4,7 @@ import GameNightTracker from './Tracker';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex h-full">
 
       <GameNightTracker />
     </div>

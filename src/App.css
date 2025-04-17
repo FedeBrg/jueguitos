@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Boldonse', sans-serif;
+  font-weight: 900;
 }
 
 .App-logo {
@@ -35,4 +37,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('checker.png');
+  background-repeat: repeat;
+  background-size: 100%;
+
 }
