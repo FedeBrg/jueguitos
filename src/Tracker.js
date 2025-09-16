@@ -175,26 +175,26 @@ const gameListData = [
         complexity: "Facil",
         link: "https://www.youtube.com/watch?v=PtWaNlg2j9Q"
       },
+      // {
+      //   name: "Cryptid (Próximamente)",
+      //   image: "https://cf.geekdo-images.com/qrPLpAnhFgc470ZRuXlvbg__imagepage/img/5NPoTdJE4JVMz6S4zAL1xFD4k8U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4037705.jpg",
+      //   players: "3-5",
+      //   time: "30-50 min",
+      //   category: "Deduccion, Investigacion, Pistas",
+      //   complexity: "Media+",
+      //   link: "https://www.youtube.com/watch?v=ehrU9HesAg0"
+      // },
       {
-        name: "Cryptid (Próximamente)",
+        name: "Taco, Gato, Cabra, Queso, Pizza",
         image: "https://cf.geekdo-images.com/qrPLpAnhFgc470ZRuXlvbg__imagepage/img/5NPoTdJE4JVMz6S4zAL1xFD4k8U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4037705.jpg",
         players: "3-5",
         time: "30-50 min",
-        category: "Deduccion, Investigacion, Pistas",
-        complexity: "Media+",
+        category: "Matching, Reflejos, Rapido",
+        complexity: "Facil",
         link: "https://www.youtube.com/watch?v=ehrU9HesAg0"
       },
       {
-        name: "Taco, Gato, Cabra, Queso, Pizza (Próximamente)",
-        image: "https://cf.geekdo-images.com/qrPLpAnhFgc470ZRuXlvbg__imagepage/img/5NPoTdJE4JVMz6S4zAL1xFD4k8U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4037705.jpg",
-        players: "3-5",
-        time: "30-50 min",
-        category: "Deduccion, Investigacion, Pistas",
-        complexity: "Media+",
-        link: "https://www.youtube.com/watch?v=ehrU9HesAg0"
-      },
-      {
-        name: "Cartographers Heroes (Próximamente)",
+        name: "Cartographers Heroes",
         image: "https://cf.geekdo-images.com/HIFpoE6wwuriOREJmqizPw__itemrep/img/r1I6NYxeb0n-O6fIKHSNfOmKOro=/fit-in/246x300/filters:strip_icc()/pic5567490.png",
         players: "2+",
         time: "30-45 min",
@@ -203,15 +203,50 @@ const gameListData = [
         link: "https://www.youtube.com/watch?v=aVDlVoUDFhw"
       },
       {
-        name: "Draftosaurus (Próximamente)",
+        name: "Draftosaurus",
         image: "https://cf.geekdo-images.com/JahbLRZ_jEe8P8gisXUtJw__itemrep/img/3HPC1vPT_u5pUPBP-gwl24X4YBw=/fit-in/246x300/filters:strip_icc()/pic4447676.jpg",
         players: "2-5",
         time: "20 min",
         category: "Drafteo",
         complexity: "Facil",
         link: "https://www.youtube.com/watch?v=a5pegumye6E"
-      }
-
+      },
+      {
+        name: "Dables",
+        image: "https://http2.mlstatic.com/D_NQ_NP_823982-MLA45813207705_052021-O.webp",
+        players: "2+",
+        time: "30-50 min",
+        category: "Matching, Reflejos, Rapido",
+        complexity: "Fácil",
+        link: "https://www.youtube.com/watch?v=ehrU9HesAg0"
+      },
+      {
+        name: "Faraway",
+        image: "https://cf.geekdo-images.com/u1cwi9BWSKsPxSkVO0BzbA__imagepagezoom/img/WtPGreEgZSev10AYRjYiJRmMIGQ=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic7570101.png",
+        players: "2-6",
+        time: "20 min",
+        category: "Draft, Estrategia",
+        complexity: "Media",
+        link: "https://www.youtube.com/watch?v=6DQTFnwfWAE"
+      },
+            {
+        name: "Yellowstone",
+        image: "https://d2j6dbq0eux0bg.cloudfront.net/images/122261030/5090844076.jpg",
+        players: "4-8",
+        time: "20 min",
+        category: "Hidden roles, Party, Social, Temático",
+        complexity: "Fácil",
+        link: "https://www.youtube.com/shorts/S0sm9-8wdIg"
+      },
+      {
+        name: "Deep Sea Adventure",
+        image: "https://oinkgames.com/images/flatview/deep-sea-adventure_en_front.png",
+        players: "2-6",
+        time: "30 min",
+        category: "Estrategia, Competitivo",
+        complexity: "Fácil",
+        link: "https://www.youtube.com/watch?v=Sxw0pMAg5S8"
+      },
   ];
   
 export default function GameNightTracker() {
