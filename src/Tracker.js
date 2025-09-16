@@ -150,7 +150,7 @@ const gameListData = [
       },
       {
         name: "El Mortal",
-        image: "https://www.ludokubo.com/wp-content/uploads/2020/09/El-Mortal-juego.jpg",
+        image: "https://http2.mlstatic.com/D_NQ_NP_682856-MLA74207225419_012024-O.webp",
         players: "2-4",
         time: "20-30 min",
         category: "Party, Cartas, Humor, (Similar a Exploding Kittens)",
@@ -186,12 +186,12 @@ const gameListData = [
       // },
       {
         name: "Taco, Gato, Cabra, Queso, Pizza",
-        image: "https://cf.geekdo-images.com/qrPLpAnhFgc470ZRuXlvbg__imagepage/img/5NPoTdJE4JVMz6S4zAL1xFD4k8U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4037705.jpg",
-        players: "3-5",
-        time: "30-50 min",
+        image: "https://www.ludonauta.es/files/ludico/juegos-mesas/juego-mesa-taco-gato-cabra-queso-pizza-2018-1204235114.jpg",
+        players: "2-8",
+        time: "15 min",
         category: "Matching, Reflejos, Rapido",
         complexity: "Facil",
-        link: "https://www.youtube.com/watch?v=ehrU9HesAg0"
+        link: "https://www.youtube.com/watch?v=ZoTlfTmJvuQ"
       },
       {
         name: "Cartographers Heroes",
