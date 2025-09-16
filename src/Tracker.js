@@ -262,7 +262,7 @@ export default function GameNightTracker() {
       <div className="flex space-x-4 mb-4">
         <button onClick={() => setTab("leaderboard")} className={`px-4 py-2 rounded ${tab === "leaderboard" ? "bg-[#ff5426] text-[#fff1e7]" : tab ==='truco' ? 'border border-[#145A38] text-[#fff1e7]': "bg-[#fff1e7] border border-[#ff5426]"}`}>Tabla de posiciones</button>
         <button onClick={() => setTab("games")} className={`px-4 py-2 rounded ${tab === "games" ? "bg-[#ff5426] text-[#fff1e7]" :tab ==='truco' ? 'border border-[#145A38] text-[#fff1e7]': "bg-[#fff1e7] border border-[#ff5426]"}`}>Jueguitos</button>
-        <button onClick={() => setTab("truco")} className={`px-4 py-2 rounded ${tab === "truco" ? "bg-[#145A38] text-[#fff1e7]" : "bg-[#fff1e7] border border-[#ff5426]"}`}>Torneo de truco</button>
+        {/* <button onClick={() => setTab("truco")} className={`px-4 py-2 rounded ${tab === "truco" ? "bg-[#145A38] text-[#fff1e7]" : "bg-[#fff1e7] border border-[#ff5426]"}`}>Torneo de truco</button> */}
       </div>
       
       {tab === "leaderboard" && (
@@ -319,7 +319,7 @@ export default function GameNightTracker() {
         </div>
       )}
 
-{tab === "truco" && (
+{/* {tab === "truco" && (
         <div className="w-full flex flex-col items-center">
 
 <img src="https://i.ibb.co/BH3GyMxn/Whats-App-Image-2025-03-23-at-16-10-32.jpg" alt="Whats-App-Image-2025-03-23-at-16-10-32" border="0"/>
@@ -330,7 +330,7 @@ export default function GameNightTracker() {
 </div>
 
 </div>
-      )}
+      )} */}
 
 
     </div>
