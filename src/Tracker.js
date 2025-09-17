@@ -184,6 +184,17 @@ const gameListData = [
         complexity: "Facil",
         link: "https://www.youtube.com/watch?v=Lu_IgiU4lh8"
       },
+                  {
+        name: "Regicide (cartas normales)",
+        image: "https://cf.geekdo-images.com/C9U2E51tkzLljewFEGQ74g__itemrep@2x/img/ruS5lzknjiVo7iwHhzWeM7VPJco=/fit-in/492x600/filters:strip_icc()/pic5837347.jpg",
+        players: "1-4",
+        time: "20-30 min",
+        category: "Cooperativo, Estrategia",
+        complexity: "Medio+",
+        link: "https://www.youtube.com/watch?v=7XoRlKzLobk"
+      },
+
+      
       // {
       //   name: "Cryptid (Próximamente)",
       //   image: "https://cf.geekdo-images.com/qrPLpAnhFgc470ZRuXlvbg__imagepage/img/5NPoTdJE4JVMz6S4zAL1xFD4k8U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4037705.jpg",
