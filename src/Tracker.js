@@ -167,13 +167,22 @@ const gameListData = [
         link: "https://www.youtube.com/watch?v=DWZ11vXmbDo"
       },
       {
-        name: "Trio",
+        name: "Trio (cartas normales)",
         image: "https://devirinvestments.s3.eu-west-1.amazonaws.com/img/catalog/product/8436607944423-1200-face3d-copy.jpg",
         players: "3-6",
         time: "20 min",
         category: "Memoria, Deduccion",
         complexity: "Facil",
         link: "https://www.youtube.com/watch?v=PtWaNlg2j9Q"
+      },
+            {
+        name: "Skull (cartas normales)",
+        image: "https://cf.geekdo-images.com/OPrd2iXm43dir7BwKAMOuQ__itemrep/img/-OqEtnWB7kEI_C_Zq9XkhDYAnNI=/fit-in/246x300/filters:strip_icc()/pic6097488.jpg",
+        players: "3-10",
+        time: "20 min",
+        category: "Memoria, Deduccion, Apuestas",
+        complexity: "Facil",
+        link: "https://www.youtube.com/watch?v=Lu_IgiU4lh8"
       },
       // {
       //   name: "Cryptid (Próximamente)",
