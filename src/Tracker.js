@@ -222,15 +222,15 @@ const gameListData = [
         complexity: "Media",
         link: "https://www.youtube.com/watch?v=aVDlVoUDFhw"
       },
-      {
-        name: "Draftosaurus",
-        image: "https://cf.geekdo-images.com/JahbLRZ_jEe8P8gisXUtJw__itemrep/img/3HPC1vPT_u5pUPBP-gwl24X4YBw=/fit-in/246x300/filters:strip_icc()/pic4447676.jpg",
-        players: "2-5",
-        time: "20 min",
-        category: "Drafteo",
-        complexity: "Facil",
-        link: "https://www.youtube.com/watch?v=a5pegumye6E"
-      },
+      // {
+      //   name: "Draftosaurus",
+      //   image: "https://cf.geekdo-images.com/JahbLRZ_jEe8P8gisXUtJw__itemrep/img/3HPC1vPT_u5pUPBP-gwl24X4YBw=/fit-in/246x300/filters:strip_icc()/pic4447676.jpg",
+      //   players: "2-5",
+      //   time: "20 min",
+      //   category: "Drafteo",
+      //   complexity: "Facil",
+      //   link: "https://www.youtube.com/watch?v=a5pegumye6E"
+      // },
       {
         name: "Dables",
         image: "https://http2.mlstatic.com/D_NQ_NP_823982-MLA45813207705_052021-O.webp",
@@ -266,6 +266,25 @@ const gameListData = [
         category: "Estrategia, Competitivo",
         complexity: "Fácil",
         link: "https://www.youtube.com/watch?v=Sxw0pMAg5S8"
+      },
+            {
+        name: "Jamaica",
+        image: "https://cf.geekdo-images.com/jZRfv3isrBG5waCzEx60Cw__itemrep@2x/img/ZXoaO80f0kyj1sCADj-uLS97qk8=/fit-in/492x600/filters:strip_icc()/pic6434838.png",
+        players: "2-6",
+        time: "30-60 min",
+        category: "Carrera, Competitivo",
+        complexity: "Fácil",
+        link: "https://www.youtube.com/watch?v=yuP6hyZqnBk"
+      },
+
+            {
+        name: "The Lord of the Rings: Fate of the Fellowship",
+        image: "https://cf.geekdo-images.com/scw36iBIad7l-rGzxPGcGg__itemrep@2x/img/xvVUhJo2v3KZx0RqrG5_TFd8ZZc=/fit-in/492x600/filters:strip_icc()/pic8662670.png",
+        players: "2-6",
+        time: "60-120 min",
+        category: "Pandemic, Cooperativo, Temático",
+        complexity: "Medio+",
+        link: "https://www.youtube.com/watch?v=OhCfFQVlT7M"
       },
   ];
   
