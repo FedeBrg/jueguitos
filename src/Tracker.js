@@ -286,6 +286,17 @@ const gameListData = [
         complexity: "Medio+",
         link: "https://www.youtube.com/watch?v=OhCfFQVlT7M"
       },
+
+            {
+        name: "River Rats (cartas normales)",
+        image: "https://cf.geekdo-images.com/zZdY44-XdymMdBBk6bjJPQ__itemrep@2x/img/341foocQgjKHCdClIFTlrzlGYJ4=/fit-in/492x600/filters:strip_icc()/pic9147056.jpg",
+        players: "1-4",
+        time: "10-30 min",
+        category: "Poker, Cooperativo",
+        complexity: "Medio",
+        link: "https://drive.google.com/file/d/1QeCWS2E0LdDhb0R5Bkb7QzXR-q2wiW6N/view"
+      },
+      
   ];
   
 export default function GameNightTracker() {
