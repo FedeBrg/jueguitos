@@ -206,7 +206,7 @@ const gameListData = [
       // },
       {
         name: "Taco, Gato, Cabra, Queso, Pizza",
-        image: "https://www.ludonauta.es/files/ludico/juegos-mesas/juego-mesa-taco-gato-cabra-queso-pizza-2018-1204235114.jpg",
+        image: "https://cf.geekdo-images.com/GHrnr-Khb0LvBU_QkrC_qA__itemrep/img/cWh2D89fj4HLBkLT71g7JYWiM1s=/fit-in/246x300/filters:strip_icc()/pic7192024.png",
         players: "2-8",
         time: "15 min",
         category: "Matching, Reflejos, Rapido",
@@ -295,6 +295,24 @@ const gameListData = [
         category: "Poker, Cooperativo",
         complexity: "Medio",
         link: "https://drive.google.com/file/d/1QeCWS2E0LdDhb0R5Bkb7QzXR-q2wiW6N/view"
+      },
+            {
+        name: "Tatrix",
+        image: "https://cf.geekdo-images.com/4_motvqsgOa1NjQUwoeIng__itemrep@2x/img/4PVIy3NP1NcLg8cOnKeCbwJka6c=/fit-in/492x600/filters:strip_icc()/pic8692267.png",
+        players: "1-6",
+        time: "20-30 min",
+        category: "Rapido, Matching",
+        complexity: "Facil",
+        link: "https://www.tantrix.com/english/TantrixGameRules.html"
+      },
+            {
+        name: "Dune: Imperium - Uprising",
+        image: "https://cf.geekdo-images.com/UVUkjMV_Q2paVUIUP30Vvw__itemrep@2x/img/R1DfoFAXuuOgg8vDr1n7_ovrscg=/fit-in/492x600/filters:strip_icc()/pic7664424.jpg",
+        players: "1-4",
+        time: "60-120 min",
+        category: "Worker placement, deck builder, area control",
+        complexity: "Dificil",
+        link: "https://www.youtube.com/watch?v=H7sACDILaZw"
       },
       
   ];
