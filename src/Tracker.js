@@ -297,7 +297,7 @@ const gameListData = [
         link: "https://drive.google.com/file/d/1QeCWS2E0LdDhb0R5Bkb7QzXR-q2wiW6N/view"
       },
             {
-        name: "Tatrix",
+        name: "Tantrix",
         image: "https://cf.geekdo-images.com/4_motvqsgOa1NjQUwoeIng__itemrep@2x/img/4PVIy3NP1NcLg8cOnKeCbwJka6c=/fit-in/492x600/filters:strip_icc()/pic8692267.png",
         players: "1-6",
         time: "20-30 min",
