@@ -314,6 +314,33 @@ const gameListData = [
         complexity: "Dificil",
         link: "https://www.youtube.com/watch?v=H7sACDILaZw"
       },
+                  {
+        name: "Colors of Paris",
+        image: "https://cf.geekdo-images.com/j16Xrf08-toGYZ04HqLoNw__itemrep@2x/img/i-dazL1Ghf8TUNWrP9YWRQ5Nj6w=/fit-in/492x600/filters:strip_icc()/pic4804321.jpg",
+        players: "2-4",
+        time: "60-80 min",
+        category: "Worker placement",
+        complexity: "Medio",
+        link: "https://www.youtube.com/watch?v=jejWFa-xMlQ"
+      },
+                        {
+        name: "Transgalactica",
+        image: "https://cf.geekdo-images.com/SKtFuXqMWU-k2kvjS0DRfQ__itemrep@2x/img/oYBIQ2RRV7DCY_feGe8Yk2AfroE=/fit-in/492x600/filters:strip_icc()/pic8453831.jpg",
+        players: "2-5",
+        time: "100 -120 min",
+        category: "Worker placement, Trackers, Euro",
+        complexity: "Dificil",
+        link: "https://www.youtube.com/watch?v=IyqGQH2yME0"
+      },
+                        {
+        name: "Schotten Totten",
+        image: "https://cf.geekdo-images.com/69mwXe7c6HNYmT6S35Y4zg__itemrep@2x/img/HO0d0QqqL0uIalDbvOU2Hu5G6nE=/fit-in/492x600/filters:strip_icc()/pic2932872.jpg",
+        players: "2",
+        time: "20 min",
+        category: "Rapido, 1v1, \"Poker\"",
+        complexity: "Facil",
+        link: "https://www.youtube.com/watch?v=e6XIrUpy0Uk"
+      },
       
   ];
   
